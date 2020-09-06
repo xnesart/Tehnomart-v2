@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Cuprum', 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background: black;
+}
