@@ -20,3 +20,6 @@ body {
   max-width: 1160px;
   margin: 0 auto;
 }
+.link, .top-nav-link {
+  text-decoration: none;
+}
