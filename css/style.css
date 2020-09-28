@@ -23,3 +23,20 @@ body {
 .link, .top-nav-link {
   text-decoration: none;
 }
+.top-wrapper{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-end;
+}
+.top-nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-nav-link {
+  margin-right: 50px;
+  list-style: none;
+}
+.top-nav-link:last-child{
+  margin-right: 0;
+}
