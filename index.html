@@ -22,7 +22,7 @@
                 <fieldset class="search-form-wrap">
                 <p class="search-form">
                     <button type="submit" class="search-button">
-                        <img src="./img/icon-search.svg" alt="иконка поиска" class="icon-search">
+                        <img src="./img/icon-search-white.svg" alt="иконка поиска" class="icon-search">
                     </button>
                     <input type="text" class="search-form-field" placeholder="Поиск">
                 </p>
@@ -30,11 +30,11 @@
             </div>
                 <nav class="top-nav">
                 <ul class="top-nav-menu">
-                    <li class="top-nav-item">
-                        <img src="./img/icon-bookmark.svg" class="bookmark-pic">
+                    <li class="top-nav-item bookmark">
+                        <!-- <img src="./img/icon-bookmark.svg" class="bookmark-pic"> -->
                         <a class="top-nav-link" href="#">Закладки: 0</a>
                     </li>
-                    <li class="top-nav-item">
+                    <li class="top-nav-item cart">
                         <img src="./img/icon-cart.svg" class="cart-pic">
                         <a class="top-nav-link" href="#">Корзина: 0</a>
                     </li>
@@ -48,28 +48,109 @@
            
                
             
-            <section>
-                <div>
-                    <p>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</p>
-                </div>
-                <div class="phone-number">
-                    <a class="phone-number-link" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
-                    <p class="phone-number-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                </div>
-                <a class="login" href="#">Войти</a>
-                <a class="registration" href="#">Регистрация</a>
+            <section class="info-section">
+                <div class="wrapper-full info-wrapper">
+                    <div class="info">
+                        <h1 class="top-title">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
+                            <div class="top-info">
+                                <a class="top-info-number" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
+                                <p class="top-info-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                            </div>
+                            <div class="enter"> 
+                                <a class="login" href="#!">Войти</a>
+                                <a class="registration" href="#!">Регистрация</a>
+                            </div>
+                    </div>                    
+                </div>               
             </section>
-            <nav class="main-nav">
-                <ul class="main-nav-menu">
-                    <li><a class="main-nav-link">Главная</a></li>
-                    <li><a class="main-nav-link">Компания</a></li>
-                    <li><a class="main-nav-link">Каталог</a></li>
-                    <li><a class="main-nav-link">Новости</a></li>
-                    <li><a class="main-nav-link">Спецпредложения</a></li>
-                    <li><a class="main-nav-link">Доставка</a></li>
-                    <li><a class="main-nav-link">Контакты</a></li>
-                </ul>
-            </nav>
+
+            <div class="wrapper-full">
+                <nav class="main-nav">
+                    <ul class="main-nav-menu">
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Главная</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Компания</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Каталог</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Новости</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Спецпредложения</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Доставка</a></li>
+                        <li class="main-nav-item"><a  href="#!" class="main-nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div> 
+
+            <div class="main-cards">
+                <div class="wrapper-full">
+                    <div class="main-catalog">
+
+
+                        <div class="main-catalog-item">
+                            <div class="main-catalog-pic">
+                                <img src="./img/main-catalog-1.png" alt="Материалы на любой вкус" class="main-catalog-thumb">
+                            </div>
+                            <p class="main-item-name">Материалы</p>
+                            <a href="#!" class="main-item-button">На любой вкус</a>
+                        </div>
+                        <div class="main-catalog-item">
+                            <div class="main-catalog-pic">
+                                <img src="./img/main-catalog-2.png" alt="Инструмент на все случаи" class="main-catalog-thumb">
+                            </div>
+                            <p class="main-item-name">Инструмент</p>
+                            <a href="#!" class="main-item-button">На все случаи</a>
+                        </div>
+                        <div class="main-catalog-item">
+                            <div class="main-catalog-pic">
+                                <img src="./img/main-catalog-3.png" alt="Техника для стройки" class="main-catalog-thumb">
+                            </div>
+                            <p class="main-item-name">Техника</p>
+                            <a href="#!" class="main-item-button">Для стройки</a>
+                        </div>
+                            <!-- Первый слайд -->
+                            <div class="main-catalog-slider slide-one">
+                                <div class="main-slide-pic">
+                                    <img src="./img/main-catalog-4-slide.png" alt="Техника для стройки" class="main-slide-thumb">
+                                </div>
+                                <div class="main-slider-control left"></div>
+                                <div class="main-slider-control right"></div>
+                                <div class="main-slide-info">
+                                    <h3 class="main-slide-name">Дрели</h3>
+                                    <p class="main-slide-desc">Соседям на радость</p>
+                                </div>
+                                <a href="#!" class="main-slide-button">Открыть каталог</a>                                                                                       
+                            </div>    
+                            
+                            <!-- Второй слайд -->
+                            <div class="main-catalog-slider slide-two">
+                                <div class="main-slide-pic">
+                                    <img src="./img/main-catalog-5-slide.png" alt="Техника для стройки" class="main-slide-thumb">
+                                </div>
+                                <div class="main-slider-control left"></div>
+                                <div class="main-slider-control right"></div>
+                                <div class="main-slide-info">
+                                    <h3 class="main-slide-name">Дрели</h3>
+                                    <p class="main-slide-desc">Соседям на радость</p>
+                                </div>
+                                <a href="#!" class="main-slide-button">Открыть каталог</a>                                                                                       
+                            </div> 
+                            <!-- Второй слайд кончился -->
+
+                            <div class="main-catalog-item">
+                                <div class="main-catalog-pic">
+                                    <img src="./img/main-catalog-6.png" alt="Техника для стройки" class="main-catalog-thumb">
+                                </div>
+                                <p class="main-item-name">скидки 50%</p>
+                                <a href="#!" class="main-item-button">На 350 товаров</a>
+                            </div>
+                            <div class="main-catalog-item">
+                                <div class="main-catalog-pic">
+                                    <img src="./img/main-catalog-7.png" alt="Техника для стройки" class="main-catalog-thumb">
+                                </div>
+                                <p class="main-item-name">Доставка</p>
+                                <a href="#!" class="main-item-button">Бесплатно</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
         
      </div>
  </header>   
