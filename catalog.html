@@ -23,7 +23,7 @@
                 <input type="text" placeholder="Поиск" class="search-input"></input>
             </form>
             <a href="#!" class="bookmarks">Закладки: 0</a>
-            <a href="#!" class="cart">Корзина: 0</a>
+            <a href="#!" class="cart cart-catalog">Корзина: 10</a>
             <a class="get-order" href="#">Оформить заказ</a>
         </div>
     </div>
@@ -89,23 +89,55 @@
                 <div class="left-side_price-value-separator">-</div>
                 <div class="left-side_price-value-max">30000</div>
             </div>
+            <!-- БЛОК С ЧЕКБОКСАМИ  -->
             <div class="producers">
                 <h4 class="producers_header">ПРОИЗВОДИТЕЛИ:</h4>
-                <ul class="producers_list">
-                    <li class="producers_list-item producers_list-item-active">BOSCH</li>
-                    <li class="producers_list-item producers_list-item-unactive">ИНТЕРСКОЛ</li>
-                    <li class="producers_list-item producers_list-item-active">MAKIta</li>
-                    <li class="producers_list-item producers_list-item-unactive">Dewalt</li>
-                    <li class="producers_list-item producers_list-item-unactive">Hitachi</li>
-                </ul>
+                <form class="producers_list">
+                    <label class="producers_list-label">
+                        <input type="checkbox" class="producers_list-check-input" id="producers_check-input" checked>
+                        <span class="producers_list-checkbox"></span>
+                        <span class="producers_list-item">BOSCH</span>
+                    </label>
+                    <label class="producers_list-label">
+                        <input type="checkbox" class="producers_list-check-input" id="producers_check-input">
+                        <span class="producers_list-checkbox"></span>
+                        <span class="producers_list-item">ИНТЕРСКОЛ</span>
+                    </label>
+                    <label class="producers_list-label">
+                        <input type="checkbox" class="producers_list-check-input" id="producers_check-input" checked>
+                        <span class="producers_list-checkbox"></span>
+                        <span class="producers_list-item">MAKIta</span>
+                    </label>                    
+                    <label class="producers_list-label">
+                        <input type="checkbox" class="producers_list-check-input" id="producers_check-input">
+                        <span class="producers_list-checkbox"></span>
+                        <span class="producers_list-item">Dewalt</span>
+                    </label>                    
+                    <label class="producers_list-label">
+                        <input type="checkbox" class="producers_list-check-input" id="producers_check-input">
+                        <span class="producers_list-checkbox"></span>
+                        <span class="producers_list-item">Hitachi</span>
+                    </label>
+                </form>
             </div>
+            <!-- // БЛОК С ЧЕКБОКСАМИ  -->
+            <!--  БЛОК С РАДИО КНОПКАМИ  -->
             <div class="power-supply">
                 <div class="power-supply_header">ПИТАНИЕ:</div>
-                <ul class="power-supply_list">
-                    <li class="power-supply_list-item power-supply_list-item-active">Аккумуляторные</li>
-                    <li class="power-supply_list-item power-supply_list-item-unactive">Сетевые</li>
-                </ul>
+                <form class="power-supply_list">
+                    <label class="power-supply_list-label">
+                        <input type="radio" class="power-supply_list-radio-input" id="power-supply_list-radio-input" checked name="radio">
+                        <span class="power-supply_list-radio"></span>
+                        <span class="power-supply_list-item">Аккумуляторные</span>
+                    </label>
+                    <label class="power-supply_list-label">
+                        <input type="radio" class="power-supply_list-radio-input" id="power-supply_list-radio-input" name="radio">
+                        <span class="power-supply_list-radio"></span>
+                        <span class="power-supply_list-item">Сетевые</span>
+                    </label>
+                </form>
             </div>
+            <!-- // БЛОК С РАДИО КНОПКАМИ  -->
             <button class="left-side_show-button">ПОКАЗАТЬ</button>
         </div>
         <div class="right-side">
@@ -127,6 +159,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card">
                     <div class="right-side_catalog-pic">
@@ -135,6 +171,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card right-side_catalog-card-new">
                     <div class="right-side_catalog-pic">
@@ -143,6 +183,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card right-side_catalog-card-new">
                     <div class="right-side_catalog-pic">
@@ -151,6 +195,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">22500 Р.</div>
                     <div class="right-side_catalog-card-new-price">15500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card">
                     <div class="right-side_catalog-pic">
@@ -159,13 +207,21 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card right-side_catalog-card-new">
                     <div class="right-side_catalog-pic">
                         <img src="./img/bosh_bfg_2000.jpg" alt="Перфоратор BOSCH BFG 2000" class="right-side_catalog-image">
                     </div>
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 2000</h4>
-                    <div class="right-side_catalog-card-new-price">12500 Р.</div>
+                    <div class="right-side_catalog-card-new-price right-side_catalog-card-new-price-alone">12500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card">
                     <div class="right-side_catalog-pic">
@@ -174,6 +230,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 3000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card">
                     <div class="right-side_catalog-pic">
@@ -182,6 +242,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 6000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
                 <div class="right-side_catalog-card">
                     <div class="right-side_catalog-pic">
@@ -190,6 +254,10 @@
                     <h4 class="right-side_catalog-card-title">Перфоратор BOSCH<br> BFG 2000</h4>
                     <div class="right-side_catalog-card-old-price">30500 Р.</div>
                     <div class="right-side_catalog-card-new-price">25500 Р.</div>
+                    <div class="right-side_catalog-card-popup">
+                        <a href="#!" class="right-side_catalog-card-popup-buy">КУПИТЬ</a>
+                        <a href="#!" class="right-side_catalog-card-popup-add-bookmark">В закладки</a>
+                    </div>
                 </div>
             </div>
             <div class="right-side_bottom-nav">
